@@ -37,3 +37,11 @@ span {
 .item:hover .icon {
   color: orange;
 }
+.image-map {
+  width: 150px;
+  height: 150px;
+  
+}
+.image-map:hover {
+  transform: scale(3);
+}
