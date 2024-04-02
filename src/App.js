@@ -1,5 +1,5 @@
 import React from "react";
-import IMAGES from "./images";
+
 import Footer from "./Footer";
 import "./App.css";
 import Navbar from "./Navbar";
@@ -9,7 +9,19 @@ export default function App() {
     <div className="container">
       <div className="App">
         <Navbar />
-        <img className="image" src={IMAGES.imgOne} alt="sushi" />
+        <div className="main">
+          <div
+            style={{
+              width: "100%",
+              height: "500px",
+              backgroundSize: "cover",
+              backgroundImage: `url(${require("./images/logo.jpg")})`,
+            }}
+          >
+            <p>Welcom to the world of Sushi</p>
+          </div>
+        </div>
+
         <Footer />
       </div>
     </div>

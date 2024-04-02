@@ -7,7 +7,7 @@ export default function Navbar() {
     <div className="Navbar">
       <nav className="d-flex justify-content-between mt-3">
         <a href="/">
-          <img src={IMAGES.imgthree} className="logo" alt="" />
+          <img src={IMAGES.imglogo} className="logo" alt="" />
           
         </a>
         <ul>

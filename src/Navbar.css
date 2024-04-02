@@ -5,8 +5,10 @@ nav li {
   margin-left: 15px;
 }
 nav a {
+  font-size: 20px;
   text-decoration: none;
-  color: red;
+  font-weight: 500;
+  color: yellow;
   transition: all 100ms ease-in-out;
 }
  .logo {
