@@ -19,19 +19,17 @@ export default function App() {
             }}
           >
             <p>Welcom to the world of Sushi</p>
-            
-              <a
-                href="/"
-                role="button"
-                className="btn btn-lg btn-primary"
-                title="FOR ORDER NOW"
-              >
-                Order now
+
+            <div className="button">
+              <a href="/" className="button-order-now" title="FOR ORDER NOW">
+                Order Now
               </a>
-            
+              <a href="/" className="button-contact" title="Contact to us">
+                Contact me
+              </a>
+            </div>
           </div>
         </div>
-
         <Footer />
       </div>
     </div>

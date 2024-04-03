@@ -1,5 +1,8 @@
+:root {
+--main-color: yellow;
+--button-color: green;
+}
 body {
-  
   background: linear-gradient(
     109.6deg,
     rgba(0, 0, 0, 0.93) 11.2%,
@@ -7,20 +10,34 @@ body {
   );
 }
 
-
 p {
-  color: yellow;
+  color: var(--main-color);
   text-align: center;
   font-size: 80px;
   font-weight: bolder;
-  padding-top: 150px;
+  padding-top: 80px;
 }
 .main {
   padding-top: 80px;
-  
-}
-.btn {
-  display: block;
-  margin: 0 570px;
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+
+}
+.button a {
+  margin: 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 20px 15px;
+  margin-top: 20px;
+}
+.button-order-now {
+  background-color: var(--button-color);
+  color: white;
+}
+.button-contact {
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+}
