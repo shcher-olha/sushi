@@ -19,6 +19,16 @@ export default function App() {
             }}
           >
             <p>Welcom to the world of Sushi</p>
+            
+              <a
+                href="/"
+                role="button"
+                className="btn btn-lg btn-primary"
+                title="FOR ORDER NOW"
+              >
+                Order now
+              </a>
+            
           </div>
         </div>
 

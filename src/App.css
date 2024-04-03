@@ -15,5 +15,12 @@ p {
   font-weight: bolder;
   padding-top: 150px;
 }
-
+.main {
+  padding-top: 80px;
+  
+}
+.btn {
+  display: block;
+  margin: 0 570px;
+}
 
