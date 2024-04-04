@@ -12,7 +12,7 @@ export default function Footer() {
     <div className="Footer">
       <div className="container">
         <div className="row mt-4">
-          <div className="col-6">
+          <div className="col-sm-6">
             <ul className="list">
               <li className="item">
                 <BiSolidContact className="icon" />
@@ -33,7 +33,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="col-6">
+          <div className="col-sm-6">
             <ul className="list ">
               <li className="item">
                 <FaMapLocationDot className="icon" />

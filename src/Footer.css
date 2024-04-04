@@ -10,8 +10,6 @@
   align-items: center;
   margin: 10px;
   padding: 10px;
-  background-color: rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s;
   cursor: pointer;
 }
 
@@ -26,14 +24,7 @@ span {
   color: white;
   transition: color 0.3s;
 }
-.item:hover {
-  
-  background: linear-gradient(
-    110.1deg,
-    rgba(87, 137, 87, 0.5) 2.9%,
-    rgb(198, 243, 139) 90.3%
-  );
-}
+
 .item:hover .icon {
   color: orange;
 }
